@@ -2,6 +2,16 @@ html {
     background: url(./img/body-bg.png);
 }
 
+a {
+    color: #354753;
+
+}
+
+a:hover {
+    color: #955633;
+    text-decoration: underline;
+}
+
 #header {
     background: url(./img/bg.png);
     height: 85px;
@@ -16,7 +26,6 @@ html {
     margin: 21px 0 0 21px;
 }
 
-/*面包屑*/
 .crumbs {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -26,7 +35,6 @@ html {
 }
 
 .crumbs a {
-    color: #666;
     text-decoration: none;
     background: url(./img/sprites.png) right 4px no-repeat;
     display: inline-block;
@@ -84,10 +92,6 @@ html {
     background-position: right 0;
 }
 
-/*开始主体内容*/
-.unit {
-
-}
 
 .unit .container {
     margin: 4px 0 0 0;
