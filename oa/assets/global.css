@@ -13,7 +13,7 @@ html {
 }
 
 #header .content img {
-    margin-top: 21px
+    margin: 21px 0 0 21px;
 }
 
 /*面包屑*/
