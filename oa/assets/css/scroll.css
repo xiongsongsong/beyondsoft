@@ -16,15 +16,6 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #E3E3E3;
-}
-
-.ks-track-hover {
-    background-color: #D9D8D8;
-}
-
-.ks-track-active {
-    background-color: #D9D8D8;
 }
 
 .ks-track {
@@ -58,62 +49,39 @@
     background: url(../img/scroll.png) 0 bottom;
 }
 
-.ks-arrowup {
-    background-color: #959695;
-    top: 0;
-}
-
-.ks-arrowup-hover {
-    background-color: #9CCAE3;
-}
-
-.ks-arrowup-active {
-    background-color: #3C7FB1;
-}
-
 .ks-arrowdown {
-    background-color: #959695;
     bottom: 0;
-}
-
-.ks-arrowdown-hover {
-    background-color: #9CCAE3;
-}
-
-.ks-arrowdown-active {
-    background-color: #3C7FB1;
 }
 
 /*拖拽条*/
 .ks-drag {
-    background-color: #979797;
     position: absolute;
-}
-
-.ks-drag .ks-dragtop, .ks-drag .ks-dragbottom {
-    display: none;
+    background: url(../img/scroll.png) -20px 0 repeat-y;
 }
 
 .ks-drag .ks-dragtop {
     background: url(../img/scroll.png) 0 -21px;
-    border: solid 1px red;
+    display: block;
+    height: 4px;
+
+}
+
+.ks-drag .ks-dragbottom {
+    background: url(../img/scroll.png) 0 -26px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 4444;
 }
 
 .ks-drag .ks-dragcenter {
     position: absolute;
     top: 50%;
-    margin-top: -10px;
-    height: 20px;
-    background-color: #18598A;
+    margin-top: -5px;
+    height: 10px;
+    background: url(../img/scroll.png) -45px -20px no-repeat;
 }
 
-/*------------*/
-.ks-drag-hover {
-    background-color: #9CCAE3;
-}
 
-/*------------*/
-.ks-drag-active {
-    background-color: #3C7FB1;
-}
 

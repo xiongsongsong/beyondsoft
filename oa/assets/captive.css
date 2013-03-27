@@ -99,3 +99,22 @@ form[name=detail-criterias] {
     margin-right: 16px;
     margin-top: 18px;
 }
+
+/*Detail Criterias*/
+
+form[name=detail-criterias] .detail-criterias {
+    padding-top: 11px;
+}
+
+form[name=detail-criterias] .scroll {
+    width: 337px;
+    height: 205px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+form[name=detail-criterias] h3 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #4e5861;
+}

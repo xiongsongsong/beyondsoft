@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>博彦科技 Beyondsoft</title>
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/global.css"/>
+    <link rel="stylesheet" href="./assets/css/scroll.css"/>
+    <link rel="stylesheet" href="./assets/captive.css"/>
+</head>
+<body>
+
+<div id="header">
+    <div class="content">
+        <img src="./assets/img/logo.png" alt=""/>
+    </div>
+</div>
+
+<div class="crumbs">
+    <a href="#">Home</a>
+    <b>Query Capture</b>
+</div>
+
+
+<div id="container">
+
+    <!--Capture-->
+    <div class="capture">
+        <div class="unit">
+            <div class="t-bg"><s></s></div>
+            <div class="content-bg">
+                <div class="content">
+                    <div class="container">
+                        <h2 class="title"><span> Capture Result </span></h2>
+
+                        <form action="/" method="post" name="capture">
+                            <table>
+                                <tr>
+                                    <th width="120">Capture Name</th>
+                                    <td>
+                                        <div class="field capture-name"><input type="text" name="capture-name"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>From:</th>
+                                    <td>
+                                        <div class="field from"><input type="text" name="from"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>To:</th>
+                                    <td>
+                                        <div class="field to"><input type="text" name="to"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Cluster:</th>
+                                    <td>
+                                        <div class="field cluster"><input type="text" name="cluster"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="smt">
+                                        <button type="reset"><span>Reset</span></button>
+                                        <button type="submit"><span>Execute</span></button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        <form action="#" method="post" name="detail-criterias">
+
+                            <div class="detail-criterias">
+                                <div class="J-scroll scroll">
+                                    <h3 style="height: 500px;">Detail Criterias</h3>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="field">
+                                                    <select name="" id="ssid">
+                                                        <option value="">v</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="b-bg"><s></s></div>
+        </div>
+    </div>
+    <!--Recent Captuers-->
+    <div class="recent-captuers">
+        <div class="unit">
+            <div class="t-bg"><s></s></div>
+            <div class="content-bg">
+                <div class="content">
+                    <div class="container">
+                        <h2 class="title"><span> Capture Result </span></h2>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="b-bg"><s></s></div>
+        </div>
+    </div>
+
+</div>
+<script src="http://a.tbcdn.cn/s/kissy/1.3.0/kissy.js" charset="utf-8"></script>
+<script type="text/javascript">
+    KISSY.config({
+        packages: [
+            {
+                name: "gallery",
+                tag: "20111224",
+                path: "http://a.tbcdn.cn/s/kissy", // cdn上适当修改对应路径
+                charset: "utf-8"
+            }
+        ]
+    });
+
+    KISSY.use("gallery/kscroll/1.1/", function (S, Kscroll) {
+        var $ = S.all,
+                d = new Kscroll($("div.J-scroll"), {
+                    arrow: true
+                });
+    });
+</script>
+</body>
+</html>
