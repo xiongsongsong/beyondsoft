@@ -1,0 +1,101 @@
+#container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#container .capture {
+    width: 693px;
+}
+
+#container .container {
+    height: 308px;
+}
+
+form[name=capture] {
+    width: 303px;
+    margin-left: 0;
+    float: left;
+    margin-top: 10px;
+}
+
+form[name=capture] .container {
+    height: 302px;
+}
+
+form[name=capture] table {
+    width: 292px;
+    margin-left: 18px;
+    font-size: 12px;
+    font-family: simsun, sans-serif;
+    color: #666;
+}
+
+form[name=capture] tr {
+    height: 47px;
+}
+
+form[name=capture] table .field {
+    width: 202px;
+    height: 28px;
+    display: block;
+    background: url(./img/sprites.png);
+}
+
+form[name=capture] table input,
+form[name=capture] table button {
+    font-family: simsun, sans-serif;
+    background-color: transparent;
+    color: #666;
+    margin: 3px 0 0 4px;
+    line-height: 20px;
+    border: 0 none;
+    outline: none;
+}
+
+form[name=capture] table .capture-name {
+    background-position: 0 -90px;
+}
+
+form[name=capture] table .field input[name=capture-name] {
+    width: 192px;
+    height: 21px;
+}
+
+form[name=capture] table .field input[name=to] {
+    width: 169px;
+    height: 21px;
+}
+
+form[name=capture] table .field input[name=from] {
+    width: 169px;
+    height: 21px;
+}
+
+form[name=capture] table .field input[name=cluster] {
+    width: 169px;
+    height: 21px;
+}
+
+/*提交的两个按钮*/
+form[name=capture] table .smt button {
+    background: url(./img/sprites.png) 0 -398px no-repeat;
+    width: 134px;
+    height: 43px;
+    font-size: 14px;
+    color: #5a2100;
+    cursor: pointer;
+}
+
+form[name=capture] table .smt button span {
+    position: relative;
+    top: -2px
+}
+
+form[name=detail-criterias] {
+    width: 343px;
+    height: 227px;
+    float: right;
+    background: url(./img/sprites.png) 0 -570px no-repeat;
+    margin-right: 16px;
+    margin-top: 18px;
+}
