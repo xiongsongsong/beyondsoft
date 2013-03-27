@@ -30,7 +30,8 @@ html {
     text-decoration: none;
     background: url(./img/sprites.png) right 4px no-repeat;
     display: inline-block;
-    padding-right: 12px;
+    padding-right: 10px;
+    margin-right: 3px;
 }
 
 .unit {
@@ -89,7 +90,7 @@ html {
 }
 
 .unit .container {
-    margin: 4px 0 0 0 ;
+    margin: 4px 0 0 0;
 }
 
 .unit .container h2 {
