@@ -45,8 +45,7 @@
     display: inline-block;
     border: solid 3px #fff;
     padding: 10px 36px;
-    margin-left: 406px;
-    margin-top: 1em;
+    margin: 1em auto 4em 406px;
     color: #fff;
     text-decoration: none;
 }

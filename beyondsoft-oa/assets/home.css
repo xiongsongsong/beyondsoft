@@ -83,6 +83,10 @@ h2 span {
     text-decoration: none;
 }
 
+#photo .wrapper {
+    height: 260px;
+}
+
 #photo .container .item b {
     position: absolute;
     left: 0;
@@ -421,7 +425,7 @@ li.more {
     width: 32.8%;
     color: #fff;
     text-align: center;
-    margin-top:3px
+    margin-top: 3px
 }
 
 #personal-details .timesheet .weekly p.last {

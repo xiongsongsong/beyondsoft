@@ -133,6 +133,29 @@ a:hover {
     position: relative;
 }
 
-.win8-metro .wrapper .item{
+.win8-metro .wrapper .item {
     overflow: hidden;
 }
+
+#footer .content {
+    width: 1200px;
+    position: relative;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    border-top: solid 1px #e5e5e5;
+    margin: 2em auto;
+    padding: 1em 0;
+    color: #7d7d7d;
+}
+
+#footer .content p.link {
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+#footer .content p.link a {
+    margin: 0 0 0 1em;
+    color: #797979;
+}
+

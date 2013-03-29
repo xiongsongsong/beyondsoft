@@ -109,3 +109,7 @@ p.modify-password a {
 #pic img {
     display: block;
 }
+
+#footer .content {
+    width: 990px;
+}
