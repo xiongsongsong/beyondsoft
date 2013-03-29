@@ -92,7 +92,6 @@ a:hover {
     background-position: right 0;
 }
 
-
 .unit .container {
     margin: 4px 0 0 0;
 }
@@ -113,6 +112,46 @@ a:hover {
     color: #333;
 }
 
+.unit h1.title {
+    height: 41px;
+    background: url(./img/h2-2-bg.png);
+    padding-left: 12px;
+    line-height: 41px;
+    margin-right: 1px;
+    position: relative;
+}
+
+.unit h1.title span {
+    display: block;
+    height: 41px;
+    padding: 0 12px;
+    background: url(./img/h2-2-bg.png) right 0;
+    color: #d5d5d5;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.unit h1.title span b {
+    background-color: #505a63;
+    display: inline-block;
+    padding: 0 5px;
+    line-height: normal;
+    text-shadow: 2px 2px 0 #353d44;
+    margin-top: 9px;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.unit h1.title b.control {
+    position: absolute;
+    right: 9px;
+    top: 15px;
+    width: 12px;
+    height: 12px;
+    background: url(./img/h2-2-bg.png) 0 -53px;
+    cursor: pointer;
+}
+
 #footer {
     padding: .5em 0;
 }
@@ -124,3 +163,84 @@ a:hover {
     font-size: 12px;
     color: #666;
 }
+
+/*Form*/
+
+.text-field {
+    background: url(./img/form-fields.png);
+    padding-left: 5px;
+    height: 27px;
+}
+
+.text-field .field-content {
+    background: url(./img/form-fields.png) right 0;
+    height: 27px;
+}
+
+.text-field input {
+    border: none 0;
+    background: transparent;
+    height: 21px;
+    margin: 2px 6px 0 0;
+    font-family: arial, sans-serif;
+    color: #666;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.text-field b.control {
+    display: inline-block;
+    background: url(./img/form-fields.png);
+    margin: 4px 4px 0 3px;
+}
+
+.text-field b.control {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.text-field b.calendar {
+    background-position: 0 -151px;
+
+}
+
+.text-field b.select {
+    background-position: -27px -152px;
+}
+
+.text-field input,
+.smt button {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    line-height: 20px;
+    border: 0 none;
+    outline: none;
+    overflow: visible;
+    padding: 0;
+}
+
+.smt button span {
+    background: url(./img/form-fields.png) 0 -207px no-repeat;
+    height: 43px;
+    font-size: 14px;
+    color: #5a2100;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+    overflow: visible;
+    display: inline-block;
+}
+
+.smt button span b {
+    text-shadow: 1px 1px 1px #f3b98d;
+    display: block;
+    line-height: 43px;
+    padding: 0 18px 0 13px;
+    height: 100%;
+    background: url(./img/form-fields.png) right -207px no-repeat;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+

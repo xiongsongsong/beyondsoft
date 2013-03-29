@@ -1,0 +1,204 @@
+#main-container {
+    width: 996px;
+    margin: 0 auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    color: #666;
+    font-size: 12px;
+    margin-left: 18px;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.item .unit {
+    margin: 10px auto;
+}
+
+th {
+    height: 47px;
+}
+
+form[name=query-log-capture] {
+    width: 287px;
+}
+
+form[name=query-log-capture] table {
+    width: 285px;
+}
+
+form[name=query-log-capture] table th {
+    width: 73px;
+}
+
+.text-field {
+    width: 231px;
+}
+
+.text-field input {
+    width: 192px;
+}
+
+.smt .btn {
+    float: right;
+}
+
+.smt .btn button {
+    margin-left: 12px;
+}
+
+.list ul.list {
+    line-height: 27px;
+    font-size: 12px;
+    margin-left: 19px;
+    font-family: Arial, sans-serif;
+}
+
+.list ul.list {
+    margin: 0 1.5em;
+}
+
+.list ul.list li {
+    vertical-align: top;
+    background: url(./img/shadow.png) 0 bottom repeat-x;
+}
+
+.list ul.list a {
+    display: inline-block;
+    background: url(./img/list.png) 0 12px no-repeat;
+    padding-left: 1.5em;
+    text-decoration: none;
+}
+
+.item {
+    width: 322px;
+    float: left;
+    margin-right: 10px;
+}
+
+.unit.list p.more {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 23px;
+    padding: 9px 0 3px 0;
+}
+
+.unit.list p.more a {
+    background: url(./img/list.png) right -22px no-repeat;
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+/*Notifications*/
+
+ul.notifications {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0 25px;
+}
+
+ul.notifications li {
+    height: 107px;
+    background: url(./img/notifications-li-bg.png) 0 bottom no-repeat;
+    position: relative;
+}
+
+ul.notifications li h4,
+ul.notifications li .avatar,
+ul.notifications li p,
+ul.notifications li span.date,
+ul.notifications li a.more {
+    position: absolute;
+}
+
+ul.notifications li:last-child {
+    background: none;
+}
+
+ul.notifications li h4 {
+    top: 8px;
+    left: 0;
+    color: #333;
+}
+
+ul.notifications li a.avatar {
+    top: 27px;
+    left: 0;
+    width: 53px;
+    height: 53px;
+    text-decoration: none;
+}
+
+ul.notifications li a.avatar span {
+    width: 53px;
+    height: 53px;
+    overflow: hidden;
+    display: block;
+}
+
+ul.notifications li a.avatar s.png-24 {
+    position: absolute;
+    left: 0;
+    width: 53px;
+    height: 53px;
+    top: 0;
+    z-index: 2;
+    background: url(./img/png-24-radius.png);
+}
+
+ul.notifications li a.avatar b {
+    font-weight: normal;
+}
+
+ul.notifications li p {
+    position: absolute;
+    left: 60px;
+    top: 27px;
+    width: 217px;
+    color: #666;
+}
+
+ul.notifications li span.date {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    color: #666;
+}
+
+ul.notifications li a.more {
+    position: absolute;
+    right: 0;
+    bottom: 9px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
