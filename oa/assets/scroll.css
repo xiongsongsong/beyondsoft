@@ -42,11 +42,11 @@
 }
 
 .ks-arrowup a {
-    background: url(../img/scroll.png) 0 0;
+    background: url(img/scroll.png) 0 0;
 }
 
 .ks-arrowdown a {
-    background: url(../img/scroll.png) 0 bottom;
+    background: url(img/scroll.png) 0 bottom;
 }
 
 .ks-arrowdown {
@@ -56,18 +56,18 @@
 /*拖拽条*/
 .ks-drag {
     position: absolute;
-    background: url(../img/scroll.png) -20px 0 repeat-y;
+    background: url(img/scroll.png) -20px 0 repeat-y;
 }
 
 .ks-drag .ks-dragtop {
-    background: url(../img/scroll.png) 0 -21px;
+    background: url(img/scroll.png) 0 -21px;
     display: block;
     height: 4px;
 
 }
 
 .ks-drag .ks-dragbottom {
-    background: url(../img/scroll.png) 0 -26px;
+    background: url(img/scroll.png) 0 -26px;
     height: 4px;
     position: absolute;
     left: 0;
@@ -80,7 +80,7 @@
     top: 50%;
     margin-top: -5px;
     height: 10px;
-    background: url(../img/scroll.png) -45px -20px no-repeat;
+    background: url(img/scroll.png) -45px -20px no-repeat;
 }
 
 
