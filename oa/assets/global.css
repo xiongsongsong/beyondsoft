@@ -2,6 +2,10 @@ html {
     background: url(./img/body-bg.png);
 }
 
+.hidden {
+    display: none;
+}
+
 a {
     color: #205171;
 

@@ -45,6 +45,11 @@
     background: none;
 }
 
+#main-content .query-log-details p.num {
+    width: 92px;
+    text-align: right;
+}
+
 #main-content .scroll {
     width: 943px;
     height: 200px;
