@@ -150,6 +150,10 @@ a:hover {
     cursor: pointer;
 }
 
+body .show h1.title b.control {
+    background-position: 0 -76px;
+}
+
 #footer {
     padding: .5em 0;
 }

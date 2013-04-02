@@ -10,13 +10,16 @@ define(function (require, exports, module) {
 
     $('div.unit').on('click', 'h1.title', function (ev) {
         var $delegateTarget = $(ev.delegateTarget);
-        if ($delegateTarget.data('scrolling')) return;
         var wrapper = $delegateTarget.find('div.item-wrapper');
-        $delegateTarget.data('scrolling', true);
-        wrapper.slideToggle(400, function () {
-            $delegateTarget.data('scrolling', false);
-            $delegateTarget.toggleClass('slideup', wrapper.is(':visible'))
-        });
-    })
 
+        if (wrapper.is(":animated")) return;
+
+        $delegateTarget.toggleClass('show')
+
+        if ($delegateTarget.hasClass('show')) {
+            wrapper.slideUp(400);
+        } else {
+            wrapper.slideDown(400);
+        }
+    })
 });
