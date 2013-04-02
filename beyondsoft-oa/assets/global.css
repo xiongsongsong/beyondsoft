@@ -141,7 +141,6 @@ a:hover {
 #nav .info .menu ul {
     height: 19px;
     overflow: hidden;
-    background: #e9e9e9;
     position: relative;
     line-height: 19px;
 }
@@ -149,6 +148,7 @@ a:hover {
 #nav .info .menu ul:hover,
 #nav .info .menu ul:hover {
     height: auto;
+    background-color: #e9e9e9;
 }
 
 #nav .info .menu ul a {
