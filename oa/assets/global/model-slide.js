@@ -10,6 +10,9 @@ define(function (require, exports, module) {
 
     $('div.unit').on('click', 'h1.title', function (ev) {
         var $delegateTarget = $(ev.delegateTarget);
+
+        if ($delegateTarget.find('b.control').length < 1) return;
+
         var wrapper = $delegateTarget.find('div.item-wrapper');
 
         if (wrapper.is(":animated")) return;

@@ -93,14 +93,14 @@ a:hover {
     margin: 4px 0 0 0;
 }
 
-.unit .container h2 {
+.unit h2 {
     font-size: 18px;
     font-family: Arial, sans-serif;
     margin: 0 18px;
     background: url(./img/h2-dashed.png) left bottom repeat-x;
 }
 
-.unit .container h2 span {
+.unit  h2 span {
     border-bottom: solid 3px #eba073;
     display: inline-block;
     padding: 0 2px 2px 0;
@@ -116,7 +116,6 @@ a:hover {
     line-height: 41px;
     margin-right: 1px;
     position: relative;
-    cursor: pointer;
 }
 
 .unit h1.title span {
