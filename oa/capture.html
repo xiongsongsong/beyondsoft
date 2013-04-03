@@ -77,8 +77,6 @@
                                     <td>&nbsp;</td>
                                 </tr>
                             </table>
-                        </form>
-                        <form action="#" method="post" name="detail-criterias">
 
                             <div class="detail-criterias clearfix">
                                 <div class="J-scroll scroll">
@@ -196,12 +194,13 @@
                                             <td align="right" colspan="3"><span class="control add"></span></td>
                                         </tr>
                                     </table>
-
                                 </div>
                             </div>
                             <div class="smt">
-                                <button type="reset"><span><b>&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;</b></span></button>
-                                <button type="submit" value="advanced"><span><b>&nbsp;&nbsp;&nbsp;Execute&nbsp;&nbsp;&nbsp;</b></span></button>
+                                <button type="reset"><span><b>&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;</b></span>
+                                </button>
+                                <button type="submit" value="advanced"><span><b>&nbsp;&nbsp;&nbsp;Execute&nbsp;&nbsp;&nbsp;</b></span>
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -297,28 +296,8 @@
 -->
 
 <script src="http://a.tbcdn.cn/s/kissy/1.3.0/kissy.js" charset="utf-8"></script>
+<script src="./assets/sea.js" data-config="./assets/config" data-main="./assets/capture/init" id="seajsnode"></script>
 
-<script type="text/javascript">
-
-    KISSY.config({
-        packages: [
-            {
-                name: "gallery",
-                tag: "20111224",
-                path: "http://a.tbcdn.cn/s/kissy",
-                charset: "utf-8"
-            }
-        ]
-    });
-
-    KISSY.use("gallery/kscroll/1.1/", function (S, Kscroll) {
-        var $ = S.all,
-                d = new Kscroll($("div.J-scroll"), {
-                    arrow: true
-                });
-    });
-
-</script>
 <!--End -->
 
 <!--footer start-->

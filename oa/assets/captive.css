@@ -49,7 +49,7 @@ form[name=capture] p.tips {
     color: #d23636;
 }
 
-form[name=detail-criterias] .detail-criterias {
+.capture .detail-criterias {
     margin-top: 11px;
     margin-left: 17px;
     background: url("./img/capture.png");
@@ -59,49 +59,49 @@ form[name=detail-criterias] .detail-criterias {
     padding: 5px 0;
 }
 
-form[name=detail-criterias] .detail-criterias .scroll {
+.capture .detail-criterias .scroll {
     width: 653px;
     height: 218px;
     overflow: hidden;
 }
 
-form[name=detail-criterias] .detail-criterias h3 {
+.capture .detail-criterias h3 {
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: #4e5861;
     margin: 5px 0 0 14px;
 }
 
-form[name=detail-criterias] .detail-criterias table {
+.capture .detail-criterias table {
     margin-left: 15px;
 }
 
-form[name=detail-criterias] .detail-criterias th {
+.capture .detail-criterias th {
     background: url("./img/temp.png") 95% center no-repeat;
     padding-right: 12px;
 }
 
-form[name=detail-criterias] .detail-criterias td.value .text-field {
+.capture .detail-criterias td.value .text-field {
     width: 433px;
 }
 
-form[name=detail-criterias] .detail-criterias td.value .text-field input {
+.capture .detail-criterias td.value .text-field input {
     width: 425px;
 }
 
-form[name=detail-criterias] .detail-criterias table .text-field {
+.capture .detail-criterias table .text-field {
     width: 93px;
 }
 
-form[name=detail-criterias] .detail-criterias table .category input {
+.capture .detail-criterias table .category input {
     width: 56px;
 }
 
-form[name=detail-criterias] .detail-criterias table td {
+.capture .detail-criterias table td {
     padding: 8px 0;
 }
 
-form[name=detail-criterias] .detail-criterias table span.control {
+.capture .detail-criterias table span.control {
     background: url("./img/form-fields.png");
     display: inline-block;
     width: 22px;
@@ -110,19 +110,19 @@ form[name=detail-criterias] .detail-criterias table span.control {
     cursor: pointer;
 }
 
-form[name=detail-criterias] .detail-criterias table span.add {
+.capture .detail-criterias table span.add {
     background-position: -80px -151px;
 }
 
-form[name=detail-criterias] .detail-criterias table span.delete {
+.capture .detail-criterias table span.delete {
     background-position: -54px -151px;
 }
 
-form[name=detail-criterias] .smt {
+.capture .smt {
     margin: 1em 0 1em 15px;
 }
 
-form[name=detail-criterias] .smt button {
+.capture .smt button {
     margin-right: 1em;
 }
 
