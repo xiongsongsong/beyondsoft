@@ -62,8 +62,8 @@
     padding: 3px 0 0 0;
 }
 
-/*Capture*/
-#main-content .capture td {
+/*query-log-details*/
+#main-content .query-log-details td {
     color: #7e3000;
 }
 
@@ -76,4 +76,9 @@
 
 #main-content .statistics .content {
     padding: 6px 0;
+}
+
+#main-content .statistics th {
+    text-align: right;
+    padding-right: 1em;
 }
