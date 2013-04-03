@@ -49,7 +49,7 @@ define(function (require, exports, module) {
 
     });
 
-    function hide(ev) {
+    function hide() {
         selectContainer.hide();
     }
 
