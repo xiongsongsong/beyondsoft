@@ -44,7 +44,9 @@ form[name=capture] tr {
 }
 
 form[name=capture] p.tips {
-    background: url("./img/form-fields.png") 0 center;
+    background: url("./img/form-fields.png") 0 -281px no-repeat;
+    padding-left: 17px;
+    color: #d23636;
 }
 
 form[name=detail-criterias] .detail-criterias {

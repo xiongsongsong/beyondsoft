@@ -239,6 +239,14 @@ body .show h1.title b.control {
     padding: 0;
 }
 
+html .text-field.error {
+    background-position: 0 -42px;
+}
+
+html .text-field.error .field-content {
+    background-position: right -42px;
+}
+
 .smt button span {
     background: url(./img/form-fields.png) 0 -207px no-repeat;
     height: 43px;
@@ -259,4 +267,19 @@ body .show h1.title b.control {
     background: url(./img/form-fields.png) right -207px no-repeat;
     white-space: nowrap;
     font-weight: normal;
+}
+
+p.more {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 23px;
+    padding: 9px 0 3px 0;
+}
+
+p.more a {
+    background: url(./img/list.png) right -22px no-repeat;
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
 }

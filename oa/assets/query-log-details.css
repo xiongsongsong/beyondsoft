@@ -87,5 +87,6 @@
 }
 
 #main-content .statistics td p.num {
-    width: 52px;
+    width: 78px;
+    text-align: right;
 }

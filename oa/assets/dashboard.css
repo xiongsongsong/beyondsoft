@@ -19,7 +19,6 @@ th {
     height: 47px;
 }
 
-
 form[name=query-log-capture] table {
     width: 293px;
 }
@@ -71,21 +70,6 @@ form[name=query-log-capture] table th {
     width: 322px;
     float: left;
     margin-right: 10px;
-}
-
-.unit.list p.more {
-    font-family: arial, sans-serif;
-    font-size: 12px;
-    text-align: right;
-    margin-right: 23px;
-    padding: 9px 0 3px 0;
-}
-
-.unit.list p.more a {
-    background: url(./img/list.png) right -22px no-repeat;
-    display: inline-block;
-    padding-right: 15px;
-    text-decoration: none;
 }
 
 /*Notifications*/
