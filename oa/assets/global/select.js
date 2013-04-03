@@ -45,7 +45,7 @@ define(function (require, exports, module) {
 
         selectContainer.show();
 
-        $(document.body).one('click', hide)
+        $(document.body).one('mousedown', hide)
 
     });
 
