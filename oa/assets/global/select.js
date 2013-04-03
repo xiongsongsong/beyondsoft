@@ -53,7 +53,7 @@ define(function (require, exports, module) {
         selectContainer.hide();
     }
 
-    selectContainer.on('click', 'div.select-container-wrapper div', function (ev) {
+    selectContainer.on('mousedown', 'div.select-container-wrapper div', function (ev) {
         var value = $.trim($(ev.target).text());
         selectContainer.hide();
         currentInput.val(value);
