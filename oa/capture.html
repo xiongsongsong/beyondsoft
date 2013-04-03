@@ -23,96 +23,273 @@
 </div>
 
 
-<div id="container">
+<div id="container" class="clearfix">
 
-    <!--Capture-->
-    <div class="capture">
-        <div class="unit">
-            <div class="t-bg"><s></s></div>
+<!--Capture-->
+<div class="capture">
+    <div class="unit">
+        <div class="t-bg"><s></s></div>
+        <div class="item-wrapper">
             <div class="content-bg">
                 <div class="content">
-                    <div class="container">
-                        <h2 class="title"><span> Capture Result </span></h2>
+                    <div class="container clearfix">
+                        <h2 class="title"><span> Capture </span></h2>
 
                         <form action="/" method="post" name="capture">
                             <table>
                                 <tr>
-                                    <th width="120">Capture Name</th>
-                                    <td>
-                                        <div class="field capture-name"><input type="text" name="capture-name"></div>
+                                    <th width="90">Name:</th>
+                                    <td width="334">
+                                        <div class="text-field name">
+                                            <div class="field-content"><input type="text" name="name"></div>
+                                        </div>
                                     </td>
+                                    <td><p class="tips">Please enter a first name</p></td>
                                 </tr>
                                 <tr>
                                     <th>From:</th>
                                     <td>
-                                        <div class="field from"><input type="text" name="from"></div>
+                                        <div class="text-field from">
+                                            <div class="field-content"><input type="text" name="from"><b
+                                                    class="control calendar"></b></div>
+                                        </div>
                                     </td>
+                                    <td><p class="tips">Please enter a first name</p></td>
                                 </tr>
                                 <tr>
                                     <th>To:</th>
                                     <td>
-                                        <div class="field to"><input type="text" name="to"></div>
+                                        <div class="text-field to">
+                                            <div class="field-content"><input type="text" name="to"><b
+                                                    class="control calendar"></b></div>
+                                        </div>
                                     </td>
+                                    <td><p class="tips">Please enter a first name</p></td>
                                 </tr>
                                 <tr>
                                     <th>Cluster:</th>
                                     <td>
-                                        <div class="field cluster"><input type="text" name="cluster"></div>
+                                        <div class="text-field cluster">
+                                            <div class="field-content"><input type="text" name="cluster"><b
+                                                    class="control select"></b></div>
+                                        </div>
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" class="smt">
-                                        <button type="reset"><span>Reset</span></button>
-                                        <button type="submit"><span>Execute</span></button>
-                                    </td>
+                                    <td><p class="tips">Please enter a first name</p></td>
                                 </tr>
                             </table>
                         </form>
                         <form action="#" method="post" name="detail-criterias">
 
-                            <div class="detail-criterias">
+                            <div class="detail-criterias clearfix">
                                 <div class="J-scroll scroll">
-                                    <h3 style="height: 500px;">Detail Criterias</h3>
+                                    <h3>Detail Criterias</h3>
                                     <table>
                                         <tr>
-                                            <td>
-                                                <div class="field">
-                                                    <select name="" id="ssid">
-                                                        <option value="">v</option>
-                                                    </select>
+                                            <th width="103" class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="SSID"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value" width="433">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
                                                 </div>
                                             </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="Query"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="Query"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="Query"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="Query"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="category">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="category"
+                                                                                      value="Query"><b
+                                                            class="control select"></b></div>
+                                                </div>
+                                            </th>
+                                            <td class="value">
+                                                <div class="text-field">
+                                                    <div class="field-content"><input type="text" name="value">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="control delete"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" colspan="3"><span class="control add"></span></td>
                                         </tr>
                                     </table>
 
                                 </div>
                             </div>
+                            <div class="smt">
+                                <button type="submit" value="submit"><span><b>
+                                    &nbsp;&nbsp;Execute&nbsp;&nbsp;</b></span>
+                                </button>
+                                <button type="submit" value="advanced"><span><b>Advanced Aearch</b></span></button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="b-bg"><s></s></div>
         </div>
+        <div class="b-bg"><s></s></div>
     </div>
-    <!--Recent Captuers-->
-    <div class="recent-captuers">
-        <div class="unit">
-            <div class="t-bg"><s></s></div>
+</div>
+
+<div class="sidebar">
+    <div class="unit recent-captuers">
+        <h1 class="title"><span><b>Recent Captuers</b></span></h1>
+
+        <div class="item-wrapper">
+
             <div class="content-bg">
                 <div class="content">
                     <div class="container">
-                        <h2 class="title"><span> Capture Result </span></h2>
+                        <ul>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
 
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+                            <li>
+                                <a href="#">Capture 201210014-15</a>
+
+                                <p>19/Nov/2012 12:01:02</p>
+                            </li>
+
+                        </ul>
 
                     </div>
                 </div>
             </div>
             <div class="b-bg"><s></s></div>
+
         </div>
     </div>
-
 </div>
 
+
+</div>
+<!--Recent Captuers-->
+<div class="capture-result">
+    <div class="unit">
+        <div class="t-bg"><s></s></div>
+        <div class="content-bg">
+            <div class="content">
+                <div class="container">
+                    <h2 class="title"><span> Capture Result </span></h2>
+
+                    <div class="flex-grid" style="padding: 1em">FlexGrid Code.....</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="b-bg"><s></s></div>
+    </div>
+</div>
 
 <!--
     KISSY is a Javascript framework of the the alibaba Group's Taobao, open source
@@ -143,6 +320,13 @@
 </script>
 <!--End -->
 
+<!--footer start-->
+<div id="footer">
+    <div class="content">
+        <p class="copyright">&copy; 2013 THOMSON REUTERS</p>
+    </div>
+</div>
+<!--footer end-->
 
 </body>
 </html>

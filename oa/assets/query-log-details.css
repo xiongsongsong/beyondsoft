@@ -79,6 +79,13 @@
 }
 
 #main-content .statistics th {
+}
+
+#main-content .statistics td {
     text-align: right;
     padding-right: 1em;
+}
+
+#main-content .statistics td p.num {
+    width: 52px;
 }

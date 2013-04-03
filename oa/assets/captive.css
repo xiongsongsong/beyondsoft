@@ -5,16 +5,11 @@
 
 #container .capture {
     width: 693px;
-}
-
-#container .container {
-    height: 308px;
+    float: left;
 }
 
 form[name=capture] {
-    width: 303px;
     margin-left: 0;
-    float: left;
     margin-top: 10px;
 }
 
@@ -23,98 +18,137 @@ form[name=capture] .container {
 }
 
 form[name=capture] table {
-    width: 292px;
+    width: 642px;
     margin-left: 18px;
     font-size: 12px;
-    font-family: simsun, sans-serif;
+    font-family: Arial, sans-serif;
     color: #666;
+}
+
+form[name=capture] .text-field {
+    width: 320px;
+}
+
+form[name=capture] .text-field input[name=name] {
+    width: 310px;
+}
+
+form[name=capture] .text-field input[name=from],
+form[name=capture] .text-field input[name=to],
+form[name=capture] .text-field input[name=cluster] {
+    width: 285px;
 }
 
 form[name=capture] tr {
     height: 47px;
 }
 
-form[name=capture] table .field {
-    width: 202px;
-    height: 28px;
-    display: block;
-    background: url(./img/sprites.png);
+form[name=capture] p.tips {
+    background: url("./img/form-fields.png") 0 center;
 }
-
-form[name=capture] table input,
-form[name=capture] table button {
-    font-family: simsun, sans-serif;
-    background-color: transparent;
-    color: #666;
-    margin: 3px 0 0 4px;
-    line-height: 20px;
-    border: 0 none;
-    outline: none;
-}
-
-form[name=capture] table .capture-name {
-    background-position: 0 -90px;
-}
-
-form[name=capture] table .field input[name=capture-name] {
-    width: 192px;
-    height: 21px;
-}
-
-form[name=capture] table .field input[name=to] {
-    width: 169px;
-    height: 21px;
-}
-
-form[name=capture] table .field input[name=from] {
-    width: 169px;
-    height: 21px;
-}
-
-form[name=capture] table .field input[name=cluster] {
-    width: 169px;
-    height: 21px;
-}
-
-/*提交的两个按钮*/
-form[name=capture] table .smt button {
-    background: url(./img/sprites.png) 0 -398px no-repeat;
-    width: 134px;
-    height: 43px;
-    font-size: 14px;
-    color: #5a2100;
-    cursor: pointer;
-}
-
-form[name=capture] table .smt button span {
-    position: relative;
-    top: -2px
-}
-
-form[name=detail-criterias] {
-    width: 343px;
-    height: 227px;
-    float: right;
-    background: url(./img/sprites.png) 0 -570px no-repeat;
-    margin-right: 16px;
-    margin-top: 18px;
-}
-
-/*Detail Criterias*/
 
 form[name=detail-criterias] .detail-criterias {
-    padding-top: 11px;
+    margin-top: 11px;
+    margin-left: 17px;
+    background: url("./img/capture.png");
+    width: 657px;
+    height: 217px;
+    overflow: hidden;
+    padding: 5px 0;
 }
 
-form[name=detail-criterias] .scroll {
-    width: 337px;
-    height: 205px;
-    margin-left: 20px;
+form[name=detail-criterias] .detail-criterias .scroll {
+    width: 653px;
+    height: 218px;
     overflow: hidden;
 }
 
-form[name=detail-criterias] h3 {
-    font-size: 18px;
+form[name=detail-criterias] .detail-criterias h3 {
     font-family: Arial, sans-serif;
+    font-size: 18px;
     color: #4e5861;
+    margin: 5px 0 0 14px;
 }
+
+form[name=detail-criterias] .detail-criterias table {
+    margin-left: 15px;
+}
+
+form[name=detail-criterias] .detail-criterias th {
+    background: url("./img/temp.png") 95% center no-repeat;
+    padding-right: 12px;
+}
+
+form[name=detail-criterias] .detail-criterias td.value .text-field {
+    width: 433px;
+}
+
+form[name=detail-criterias] .detail-criterias td.value .text-field input {
+    width: 425px;
+}
+
+form[name=detail-criterias] .detail-criterias table .text-field {
+    width: 93px;
+}
+
+form[name=detail-criterias] .detail-criterias table .category input {
+    width: 56px;
+}
+
+form[name=detail-criterias] .detail-criterias table td {
+    padding: 8px 0;
+}
+
+form[name=detail-criterias] .detail-criterias table span.control {
+    background: url("./img/form-fields.png");
+    display: inline-block;
+    width: 22px;
+    height: 26px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+form[name=detail-criterias] .detail-criterias table span.add {
+    background-position: -80px -151px;
+}
+
+form[name=detail-criterias] .detail-criterias table span.delete {
+    background-position: -54px -151px;
+}
+
+form[name=detail-criterias] .smt {
+    margin: 1em 0 1em 15px;
+}
+
+#container .sidebar {
+    width: 281px;
+    float: right;
+    font-family: Arial, sans-serif;
+}
+
+#container .recent-captuers ul {
+    margin: 0 21px;
+    font-size: 14px;
+    color: #666;
+}
+
+#container .recent-captuers ul li {
+    padding: 10px 0;
+    vertical-align: top;
+    background: url(./img/shadow.png) 0 bottom repeat-x;
+}
+
+#container .recent-captuers ul li a {
+    text-decoration: none;
+    background: url("./img/sprites.png") 0 4px no-repeat;
+    display: inline-block;
+    padding-left: 8px;
+    margin-bottom: 2px;
+}
+
+/*Capture result*/
+div.capture-result {
+    margin: 10px auto;
+    width: 990px;
+}
+
