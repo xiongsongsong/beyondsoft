@@ -7,7 +7,7 @@ table {
     font-family: arial, sans-serif;
     color: #666;
     font-size: 12px;
-    margin-left: 18px;
+    margin-left: 14px;
     text-shadow: 1px 1px 0 #fff;
 }
 
@@ -19,12 +19,9 @@ th {
     height: 47px;
 }
 
-form[name=query-log-capture] {
-    width: 287px;
-}
 
 form[name=query-log-capture] table {
-    width: 285px;
+    width: 293px;
 }
 
 form[name=query-log-capture] table th {
