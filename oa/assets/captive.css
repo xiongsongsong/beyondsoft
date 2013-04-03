@@ -148,6 +148,10 @@ form[name=detail-criterias] .smt {
     margin-bottom: 2px;
 }
 
+#container .recent-captuers ul li p {
+    padding-left: 8px;
+}
+
 /*Capture result*/
 div.capture-result {
     margin: 10px auto;
