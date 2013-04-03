@@ -122,6 +122,10 @@ form[name=detail-criterias] .smt {
     margin: 1em 0 1em 15px;
 }
 
+form[name=detail-criterias] .smt button {
+    margin-right: 1em;
+}
+
 #container .sidebar {
     width: 281px;
     float: right;
