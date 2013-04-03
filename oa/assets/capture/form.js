@@ -15,4 +15,18 @@ define(function (require, exports, module) {
         ev.preventDefault();
     });
 
+    $formObj.on('click', 'span.add', function () {
+        var $this = $(this);
+        var $parentTr = $this.parents('tr');
+        $parentTr.prev('tr').clone().insertBefore($parentTr)
+
+    })
+
+    $formObj.on('click', 'span.delete', function () {
+        var $this = $(this);
+        if ($this.parents('table').find('tr').length <= 2) return;
+        $(this).parents('tr').remove();
+
+    })
+
 });

@@ -10,8 +10,8 @@
 
 define(function (require, exports, module) {
 
-    require('./scroll');
-
     require('./form');
+
+    require('../global/select');
 
 });

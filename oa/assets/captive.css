@@ -70,7 +70,7 @@ form[name=capture] p.tips {
 .capture .detail-criterias .scroll {
     width: 653px;
     height: 170px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .capture .detail-criterias h3 {
@@ -82,6 +82,7 @@ form[name=capture] p.tips {
 
 .capture .detail-criterias table {
     margin-left: 15px;
+    width: 340px;
 }
 
 .capture .detail-criterias th {
@@ -103,10 +104,6 @@ form[name=capture] p.tips {
 
 .capture .detail-criterias table .category input {
     width: 56px;
-}
-
-.capture .detail-criterias table td {
-    padding: 8px 0;
 }
 
 .capture .detail-criterias table span.control {

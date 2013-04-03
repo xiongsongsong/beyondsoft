@@ -283,3 +283,29 @@ p.more a {
     padding-right: 15px;
     text-decoration: none;
 }
+
+/*Select*/
+
+.select-container {
+    background: url('./img/select-bg.png') 0 bottom no-repeat;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    padding-left: 5px;
+}
+
+.select-container .select-container-wrapper {
+    background: url('./img/select-bg.png') right bottom no-repeat;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.select-container .select-container-wrapper div {
+    padding: 5px 0;
+}
+
+.select-container .select-container-wrapper div:hover {
+    background: #858585;
+    color: #fff;
+}
+

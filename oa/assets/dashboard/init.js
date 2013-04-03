@@ -12,4 +12,6 @@ define(function (require, exports, module) {
 
     require('../global/model-slide');
 
+    require('../global/select');
+
 });
