@@ -203,6 +203,7 @@ div.capture-result {
 
 .capture-failed {
     font-family: Arial, sans-serif;
+    padding: 1em;
 }
 
 .capture-failed .header {
