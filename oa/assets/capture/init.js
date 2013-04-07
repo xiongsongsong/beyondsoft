@@ -12,6 +12,8 @@ define(function (require, exports, module) {
 
     require('./form');
 
+    require('./overlay');
+
     require('../global/select');
 
 });

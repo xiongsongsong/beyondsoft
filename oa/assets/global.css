@@ -287,7 +287,7 @@ p.more a {
 /*Select*/
 
 .select-container {
-    background: url('./img/select-bg.png') 0 bottom no-repeat;
+    background: url('./img/select-bg-left.png') 0 bottom no-repeat;
     font-family: Arial, sans-serif;
     font-size: 12px;
     position: absolute;
@@ -295,17 +295,42 @@ p.more a {
 }
 
 .select-container .select-container-wrapper {
-    background: url('./img/select-bg.png') right bottom no-repeat;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    background: transparent url('./img/select-bg-right.png') right bottom no-repeat;
+    padding: 5px 5px 5px 0;
 }
 
 .select-container .select-container-wrapper div {
-    padding: 5px 0;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .select-container .select-container-wrapper div:hover {
     background: #858585;
     color: #fff;
+    border-radius: 2px;
 }
 
+/*Dialog*/
+.ks-overlay {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.ks-overlay-hidden {
+    visibility: hidden;
+}
+
+.ks-overlay-mask-hidden {
+    display: none;
+}
+
+.ks-overlay-shown {
+    visibility: visible;
+}
+
+.ks-overlay-mask-shown {
+    display: block;
+}
