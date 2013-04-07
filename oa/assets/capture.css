@@ -224,10 +224,12 @@ div.capture-result {
 
 .capture-failed .header p {
     font-size: 14px;
+    color: #4e5a5e;
 }
 
 .capture-failed .content {
     font-size: 12px;
     line-height: 180%;
     margin: 6px auto;
+    color: #666;
 }
