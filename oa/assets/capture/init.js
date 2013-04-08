@@ -14,6 +14,11 @@ define(function (require, exports, module) {
 
     require('./overlay');
 
-    require('../global/select');
+    var select = require('../global/select');
+
+    /*Fix select bug*/
+    $('#detail-criterias-scroll').on('scroll', function () {
+        select.hide();
+    })
 
 });

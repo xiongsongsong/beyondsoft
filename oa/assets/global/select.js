@@ -47,13 +47,16 @@ define(function (require, exports, module) {
 
         selectContainer.show();
 
-        $(document.body).one('mousedown scroll', hide)
+        $(document.body).one('mousedown', hide)
+        $(window).one('resize scroll', hide);
 
     });
 
     function hide() {
         selectContainer.hide();
     }
+
+    exports.hide = hide;
 
     selectContainer.on('mousedown', 'div.select-container-wrapper div', function (ev) {
         var value = $.trim($(ev.target).text());
