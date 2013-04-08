@@ -43,41 +43,51 @@
                                                 <div class="field-content"><input type="text" name="name"></div>
                                             </div>
                                         </td>
-                                        <td>&nbsp;</td>
+                                        <td width="200"><p class="tips"></p></td>
+
                                     </tr>
                                     <tr>
                                         <th>From:</th>
                                         <td>
-                                            <div class="text-field error from">
+                                            <div class="text-field from">
+                                                <!---->
                                                 <div class="field-content"><input type="text" name="from"
+                                                                                  value="2012/12/21 00:00:00"
+                                                                                  data-time-stamp="1356019200000"
+                                                                                  readonly="readonly"
                                                                                   data-value="Option 1,Option 2,Option 3,Option 4,Option 5"><b
                                                         class="control calendar"></b></div>
                                             </div>
                                         </td>
-                                        <td><p class="tips">Please enter a first name</p></td>
+                                        <td><p class="tips"></p></td>
                                     </tr>
                                     <tr>
-                                        <th>To:</th>
+                                        <th>Duration:</th>
                                         <td>
                                             <div class="text-field to">
-                                                <div class="field-content"><input type="text" name="to"
+                                                <div class="field-content"><input type="text" value="test"
+                                                                                  name="duration"
+                                                                                  readonly="readonly"
                                                                                   data-value="Option 1,Option 2,Option 3,Option 4,Option 5"><b
                                                         class="control calendar"></b></div>
                                             </div>
                                         </td>
-                                        <td>&nbsp;</td>
+                                        <td><p class="tips"></p></td>
+
                                     </tr>
                                     <tr>
                                         <th>Cluster:</th>
                                         <td>
                                             <div class="text-field cluster">
                                                 <div class="field-content"><input type="text" name="cluster"
+                                                                                  readonly="readonly"
                                                                                   data-value="Option 1,Option 2,Option 3"><b
                                                         class="control select"></b></div>
 
                                             </div>
                                         </td>
-                                        <td>&nbsp;</td>
+                                        <td><p class="tips"></p></td>
+
                                     </tr>
                                 </table>
 
@@ -235,7 +245,8 @@
         <div class="content-bg">
             <div class="content">
                 <div class="container">
-                    <h2 class="title"><span> Result </span></h2>
+                    <h2 class="title"><span> Result </span><b class="tips warming">Sorry, it is suggested that please
+                        readjust the query conditions</b></h2>
 
                     <div class="flex-grid" style="padding: 1em">FlexGrid Code.....
                         <a href="#" class="triggers show">Show Dialog</a>

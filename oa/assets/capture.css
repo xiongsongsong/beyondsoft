@@ -42,7 +42,7 @@ form[name=capture] .text-field input[name=name] {
 }
 
 form[name=capture] .text-field input[name=from],
-form[name=capture] .text-field input[name=to],
+form[name=capture] .text-field input[name=duration],
 form[name=capture] .text-field input[name=cluster] {
     width: 285px;
 }

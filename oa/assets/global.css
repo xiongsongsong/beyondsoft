@@ -117,6 +117,15 @@ a:hover {
     background: url(./img/h2-dashed.png) left bottom repeat-x;
 }
 
+.unit h2 b.tips {
+    font-size: 12px;
+    color: #c35a1f;
+    margin-left: 2em;
+    font-weight: normal;
+    background: url(./img/form-fields.png) 0 -336px no-repeat;
+    padding-left: 22px;
+}
+
 .unit  h2 span {
     border-bottom: solid 3px #eba073;
     display: inline-block;

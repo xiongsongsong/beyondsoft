@@ -45,7 +45,7 @@ define(function (require, exports, module) {
 
         selectContainer.show();
 
-        $(document.body).one('mousedown', hide)
+        $(document.body).one('mousedown scroll', hide)
 
     });
 
@@ -57,6 +57,7 @@ define(function (require, exports, module) {
         var value = $.trim($(ev.target).text());
         selectContainer.hide();
         currentInput.val(value);
+        $(currentInput).trigger('blur');
     });
 
 
