@@ -136,10 +136,12 @@ a:hover {
 
 .unit h2 b.tips.fail {
     background-position: 0 -439px;
+    color: red;
 }
 
 .unit h2 b.tips.success {
     background-position: 0 -478px;
+    color: #0a0;
 }
 
 .unit  h2 span {
