@@ -24,6 +24,7 @@ define(function (require, exports, module) {
         var delegateTarget = $(this).parents('div.text-field');
         var offset = delegateTarget.offset();
         currentInput = delegateTarget.find('input');
+        delegateTarget.removeClass('error');
 
         if (currentInput.length < 1) return;
 
