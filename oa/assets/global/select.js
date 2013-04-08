@@ -33,7 +33,8 @@ define(function (require, exports, module) {
         select = select.split(',');
         var options = '';
         for (var i = 0; i < select.length; i++) {
-            options += '<div>' + select[i] + '</div>';
+            var v = $.trim(select[i].replace(/\r\n/gmi, ''));
+            options += '<div title="' + v + '">' + v + '</div>';
         }
 
         selectContainer.find('div.select-container-wrapper').html(options);
