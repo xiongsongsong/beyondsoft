@@ -19,7 +19,7 @@ define(function (require, exports, module) {
         ]
     });
 
-    KISSY.use("ua,event,node,overlay,button,component/plugin/drag", function (S, UA, Event, Node, O, B, DragPlugin) {
+    KISSY.use("ua,event,node,overlay,button", function (S, UA, Event, Node, O, B) {
         var dialog = new O.Dialog({
             elCls: 'my-container',//Please go to capture.css
             elStyle: {
@@ -30,9 +30,7 @@ define(function (require, exports, module) {
             closable: false,
             //mask: true,
             plugins: [
-                new DragPlugin({
-                    handlers: ['.ks-stdmod-header']
-                })
+
             ],
             align: {
                 points: ['cc', 'cc']
