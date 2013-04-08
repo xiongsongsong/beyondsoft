@@ -29,28 +29,26 @@ define(function (require, exports, module) {
             headerContent: '<h2><span>Capture Failed</span></h2>',
             closable: false,
             //mask: true,
-            plugins: [
-
-            ],
             align: {
+                node: S.get('#flex-grid-container'),
                 points: ['cc', 'cc']
             }
         });
 
         function show() {
             dialog.show();
-            center();
         }
 
-
-        function center() {
-            if (dialog.get("visible")) {
-                dialog.center();
-            }
-        }
+        S.Event.on(window, 'scroll', function (ev) {
+            dialog.set("align", {
+                node: S.get('#flex-grid-container'),
+                points: ['cc', 'cc']
+            });
+        })
 
         $(document.body).on('click', '.show,.hide,.change,a.title', function (ev) {
 
+            ev.preventDefault();
             var $this = $(this);
 
             if (!$this.hasClass('triggers')) return;
@@ -75,10 +73,6 @@ define(function (require, exports, module) {
 
         })
 
-        //for ie6
-        if ('undefined' == typeof(document.body.style.maxHeight)) {
-            Event.on(window, "scroll", center);
-        }
     });
 
 })

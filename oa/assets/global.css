@@ -122,8 +122,24 @@ a:hover {
     color: #c35a1f;
     margin-left: 2em;
     font-weight: normal;
-    background: url(./img/form-fields.png) 0 -336px no-repeat;
-    padding-left: 22px;
+    background: url(./img/form-fields.png) no-repeat;
+    padding: 2px 0 3px 22px;
+}
+
+.unit h2 b.tips.warning {
+    background-position: 0 -335px;
+}
+
+.unit h2 b.tips.info {
+    background-position: 0 -394px;
+}
+
+.unit h2 b.tips.fail {
+    background-position: 0 -438px;
+}
+
+.unit h2 b.tips.success {
+    background-position: 0 -477px;
 }
 
 .unit  h2 span {
