@@ -39,6 +39,9 @@ define(function (require, exports, module) {
             dialog.show();
         }
 
+        exports.dialog = dialog;
+        exports.show = show;
+
         S.Event.on(window, 'scroll', function (ev) {
             dialog.set("align", {
                 node: S.get('#flex-grid-container'),
