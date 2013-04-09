@@ -34,6 +34,7 @@ define(function (require, exports, module) {
         var options = '';
         for (var i = 0; i < select.length; i++) {
             var v = $.trim(select[i].replace(/\r\n/gmi, ''));
+            if (v.length < 1) continue;
             options += '<div title="' + v + '">' + v + '</div>';
         }
 
