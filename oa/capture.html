@@ -251,7 +251,11 @@
                     <h2 class="title"><span> Result </span><b class="tips warning">Sorry, it is suggested that please
                         readjust the query conditions</b></h2>
 
-                    <div class="flex-grid" id="flex-grid-container" style="padding: 1em;height: 423px;">FlexGrid Code.....
+                    <div class="flex-grid" id="flex-grid-container" style="padding: 1em;height: 423px;">FlexGrid
+                        Code.....
+
+                        <button id="showDialog">Show Dialog</button>
+
                         <a href="#" class="triggers show">Show Dialog</a>
                         <a href="#" class="triggers change">Change Content</a>
                         <a href="#" class="triggers title">Change Title</a>
@@ -278,6 +282,14 @@
 -->
 
 <script src="./assets/sea.js" data-config="./assets/config" data-main="./assets/capture/init" id="seajsnode"></script>
+<script>
+    define(function (require, exports, module) {
+        var dialog = require('./capture/overlay');
+        document.getElementById('showDialog').onclick = function () {
+            if (dialog.show) dialog.show();
+        }
+    })
+</script>
 
 <!--End -->
 
