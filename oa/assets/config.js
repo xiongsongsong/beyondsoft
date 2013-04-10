@@ -7,9 +7,9 @@
  */
 
 seajs.config({
-    alias: {
+    /*alias: {
         '$': './assets/jquery.1.9.1'
     },
-    preload: ['$']
+    preload: ['$']*/
 });
 
