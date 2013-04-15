@@ -33,9 +33,13 @@ a:hover {
 
 #login h2 {
     font-family: "Microsoft Yahei", sans-serif;
-    color: #005;
+    color: #666;
     margin-bottom: 8px;
     font-weight: bold;
+}
+
+#login h2 b {
+    font-weight: normal;
 }
 
 #login input.user,
