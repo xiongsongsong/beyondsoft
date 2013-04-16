@@ -131,6 +131,7 @@ a:hover {
 .unit h2 b.tips.warning {
     background-position: 0 -335px;
     color: #dc9300;
+    min-height: 16px;
 }
 
 .unit h2 b.tips.info {
