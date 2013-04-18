@@ -86,15 +86,21 @@
 
     <div id="main-content">
 
-        <form id="search" name="search">
-            <div class="control">
-                <a href="#code" class="current">流程代码</a>
-                <a href="#name">流程名称</a>
+        <form id="search" name="search" class="clearfix">
+            <div id="search-select" class="select">
+                <input type="text" value="ID" readonly="readonly" name="type">
+                <ul>
+                    <li>流程号</li>
+                    <li>AAAA</li>
+                    <li>BBBBB</li>
+                    <li>CCCC</li>
+                </ul>
             </div>
             <label for="keyword">
                 <input type="text" id="keyword" class="keyword" placeholder="请输入流程代码....">
             </label>
             <label for="submit" class="submit"><input id="submit" type="submit" value=""></label>
+            <a href="#" class="search-option">高级搜索</a>
         </form>
 
         <div class="workflow-table">
@@ -221,6 +227,7 @@
         </p>
     </div>
 </div>
-
+<script src="http://a.tbcdn.cn/s/kissy/1.3.0/kissy-min.js"></script>
+<script src="./assets/list.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
 
 .workflow-table {
     color: #666;
-    margin-top: 20px ;
+    margin-top: 20px;
 }
 
 .workflow-table h2 {
@@ -17,6 +17,7 @@
     font-size: 14px;
     text-indent: 12px;
     position: relative;
+    z-index: 1;
 }
 
 .workflow-table h2 span.colspan {
