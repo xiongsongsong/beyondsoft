@@ -37,10 +37,24 @@ a:hover {
 #header .content {
     width: 990px;
     margin: 0 auto;
+    position: relative;
 }
 
 #header .content img {
     margin: 21px 0 0 21px;
+}
+
+#header .content .more-link {
+    position: absolute;
+    right: 4px;
+    top: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#header .content .more-link a {
+    text-decoration: none;
+    color: #D5D5D5;
 }
 
 .crumbs {
