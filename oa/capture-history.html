@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Capture Result</title>
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/global.css"/>
+    <link rel="stylesheet" href="assets/scroll.css"/>
+    <link rel="stylesheet" href="assets/captures-query-log.css"/>
+</head>
+<body>
+
+<div id="header">
+    <div class="content">
+        <img src="./assets/img/logo.png" alt=""/>
+    </div>
+</div>
+
+<div class="crumbs">
+    <a href="#">Home</a>
+    <a href="#">QueryLog Capture</a>
+    <b>History</b>
+</div>
+
+<div id="container" class="clearfix">
+
+    <!--Capture-->
+    <div class="capture">
+        <div class="unit">
+            <div class="t-bg"><s></s></div>
+            <div class="item-wrapper">
+                <div class="content-bg">
+                    <div class="content">
+                        <div class="container clearfix">
+                            <h2 class="title"><span> Capture </span></h2>
+
+                            <form action="/" method="post" name="capture">
+                                <table>
+                                    <tr>
+                                        <th width="90">Duration:</th>
+                                        <td width="334">
+                                            <div class="text-field name">
+                                                <div class="field-content"><input type="text" name="duration"  value="2012/12/21 00:00:00"
+                                                                                  data-time-stamp="1356019200000"
+                                                                                  readonly="readonly"
+                                                                                  data-value="Option 1,Option 2,Option 3,Option 4,Option 5"><b class="control select"></b></div>
+                                            </div>
+                                        </td>
+                                        <td width="200"><p class="tips"></p></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th>Name:</th>
+                                        <td>
+                                            <div class="text-field from">
+                                                <!---->
+                                                <div class="field-content"><input type="text" name="name"
+                                                                                 ></div>
+                                            </div>
+                                        </td>
+                                        <td><p class="tips"></p></td>
+                                    </tr>
+                                </table>
+
+                                <div class="textarea">
+                                    <textarea name="content"></textarea>
+                                </div>
+                                <div class="smt">
+
+                                    <button type="submit" value="advanced"><span><b>&nbsp;&nbsp;&nbsp;Execute&nbsp;&nbsp;&nbsp;</b></span>
+                                    </button> <button type="reset"><span><b>&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;</b></span>
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-bg"><s></s></div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="./assets/jquery.1.9.1.js"></script>
+<script src="./assets/sea.js" data-config="./assets/config" data-main="./assets/capture-query-log/init" id="seajsnode"></script>
+
+<!--End -->
+
+<!--footer start-->
+<div id="footer">
+    <div class="content">
+        <p class="copyright">&copy; 2013 THOMSON REUTERS</p>
+    </div>
+</div>
+<!--footer end-->
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+#container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#container .capture {
+    width: 990px;
+    float: left;
+}
+
+#container .sidebar .content {
+    height: 470px;
+}
+
+form[name=capture] {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+form[name=capture] table {
+    width: 642px;
+    margin-left: 18px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+form[name=capture] .text-field {
+    width: 320px;
+}
+
+form[name=capture] .text-field input[name=name] {
+    width: 310px;
+}
+
+form[name=capture] .text-field input[name=from],
+form[name=capture] .text-field input[name=duration],
+form[name=capture] .text-field input[name=cluster] {
+    width: 285px;
+}
+
+form[name=capture] tr {
+    height: 47px;
+}
+
+form[name=capture] p.tips {
+    background: url("./img/form-fields.png") 0 -281px no-repeat;
+    padding-left: 17px;
+    color: #d23636;
+}
+
+.capture .textarea {
+    margin-top: 11px;
+    margin-left: 17px;
+    background: url("./img/capture2.png");
+    width: 946px;
+    height: 254px;
+    overflow: hidden;
+}
+
+.capture .textarea textarea {
+    width: 905px;
+    height: 242px;
+    margin: 6px 8px;
+    padding-right: 26px;
+    display: block;
+    border: none;
+    resize: none;
+    background: transparent;
+    overflow: auto;
+    outline: none;
+    font-family: Arial, sans-serif;
+    color: #555;
+    font-size: 12px;
+    line-height: 170%;
+}
+
+.capture .smt {
+    margin: 1em 0 1em 15px;
+}
+
+.capture .smt button {
+    margin-right: 1em;
+}
+
+#container .sidebar {
+    width: 281px;
+    float: right;
+    font-family: Arial, sans-serif;
+}
+
+#container .recent-captuers ul {
+    margin: 0 21px;
+    font-size: 14px;
+    color: #666;
+}
+
+#container .recent-captuers ul li {
+    padding: 10px 0;
+    vertical-align: top;
+    background: url(./img/shadow.png) 0 bottom repeat-x;
+}
+
+#container .recent-captuers ul li a {
+    text-decoration: none;
+    background: url("./img/sprites.png") 0 4px no-repeat;
+    display: inline-block;
+    padding-left: 8px;
+    margin-bottom: 2px;
+}
+
+#container .recent-captuers ul li p {
+    padding-left: 8px;
+}
+
+/*Capture result*/
+div.capture-result {
+    margin: 10px auto;
+    width: 990px;
+}
+
+/*Dialog*/
+.my-container {
+    width: 506px;
+    height: 274px;
+    background: url(./img/dialog.png) 0 0 no-repeat;
+    outline: none;
+}
+
+.my-container .ks-stdmod-header {
+    height: 44px;
+}
+
+.my-container .ks-stdmod-header h2 {
+    color: #652900;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    line-height: 49px;
+    padding-left: 22px;
+}
+
+.my-container .ks-stdmod-header h2 span {
+    background: url(./img/dialog-h2-bg.png) 0 5px repeat-x;
+    display: inline-block;
+    padding: 0 12px;
+    height: 44px;
+}
+
+.my-container .ks-stdmod-body {
+    margin: 5px auto;
+    width: 480px;
+    height: 208px;
+    overflow: auto;
+}
+
+.capture-failed {
+    font-family: Arial, sans-serif;
+    padding: 1em;
+}
+
+.capture-failed .header {
+    padding-left: 48px;
+    min-height: 66px;
+    padding-top: 6px;
+    background: url(./img/face.png) 0 0 no-repeat;
+}
+
+.capture-failed .header.sorry {
+    background-position: 4px 0;
+}
+
+.capture-failed .header h5 {
+    font-size: 30px;
+    color: #4e5a5e;
+}
+
+.capture-failed .header p {
+    font-size: 14px;
+    color: #4e5a5e;
+}
+
+.capture-failed .content {
+    font-size: 12px;
+    line-height: 180%;
+    margin: 6px auto;
+    color: #666;
+}
