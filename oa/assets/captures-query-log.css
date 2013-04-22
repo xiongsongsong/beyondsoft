@@ -40,7 +40,7 @@ form[name=capture] .text-field input[name=cluster] {
 }
 
 form[name=capture] tr {
-    height: 47px;
+    height: 37px;
 }
 
 form[name=capture] p.tips {

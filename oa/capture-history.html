@@ -38,13 +38,15 @@
                             <form action="/" method="post" name="capture">
                                 <table>
                                     <tr>
-                                        <th width="90">Duration:</th>
-                                        <td width="334">
+                                        <th width="38">Duration:</th>
+                                        <td width="334" align="left">
                                             <div class="text-field name">
-                                                <div class="field-content"><input type="text" name="duration"  value="2012/12/21 00:00:00"
+                                                <div class="field-content"><input type="text" name="duration"
+                                                                                  value="2012/12/21 00:00:00"
                                                                                   data-time-stamp="1356019200000"
                                                                                   readonly="readonly"
-                                                                                  data-value="Option 1,Option 2,Option 3,Option 4,Option 5"><b class="control select"></b></div>
+                                                                                  data-value="Option 1,Option 2,Option 3,Option 4,Option 5"><b
+                                                        class="control select"></b></div>
                                             </div>
                                         </td>
                                         <td width="200"><p class="tips"></p></td>
@@ -56,21 +58,31 @@
                                             <div class="text-field from">
                                                 <!---->
                                                 <div class="field-content"><input type="text" name="name"
-                                                                                 ></div>
+                                                        ></div>
                                             </div>
                                         </td>
                                         <td><p class="tips"></p></td>
                                     </tr>
+                                    <tr style="height: 24px">
+                                        <th colspan="2" style="vertical-align: bottom">Cluster</th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="textarea" style="margin-left: 0">
+                                                <textarea name="content"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </table>
 
-                                <div class="textarea">
-                                    <textarea name="content"></textarea>
-                                </div>
+
                                 <div class="smt">
 
                                     <button type="submit" value="advanced"><span><b>&nbsp;&nbsp;&nbsp;Execute&nbsp;&nbsp;&nbsp;</b></span>
-                                    </button> <button type="reset"><span><b>&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;</b></span>
-                                </button>
+                                    </button>
+                                    <button type="reset"><span><b>&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;</b></span>
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -85,7 +97,8 @@
 
 
 <script src="./assets/jquery.1.9.1.js"></script>
-<script src="./assets/sea.js" data-config="./assets/config" data-main="./assets/capture-query-log/init" id="seajsnode"></script>
+<script src="./assets/sea.js" data-config="./assets/config" data-main="./assets/capture-query-log/init"
+        id="seajsnode"></script>
 
 <!--End -->
 
