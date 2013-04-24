@@ -49,7 +49,8 @@ a:hover {
 
 #nav .nav ul {
     position: absolute;
-    left: 223px;
+    left: 213px;
+    font-size: 14px;
 }
 
 #nav .nav ul li {
