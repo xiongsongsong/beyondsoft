@@ -32,13 +32,28 @@ function scroll(node) {
     var config = $.parseJSON(delay);
 
     function _scroll() {
+
         var item = $(node).find('div.item');
+        changeURL(item.eq(1));
         item.eq(0).clone().appendTo(wrapper);
         item.eq(0).animate({marginTop: -(item.eq(0).height())}, config.interval, 'swing', function () {
             item.eq(0).remove();
             setTimeout(_scroll, config.delay);
         })
+
     }
+
+    function changeURL(item) {
+        if ($node.find('a.fix-title').length > 0) {
+            var fixTitle = $node.find('a.fix-title');
+            if (!item) item = $(node).find('div.item').eq(0);
+            var a = item.find('a[href]');
+            fixTitle[0].innerHTML = a.attr('title');
+            fixTitle[0].href = a[0].href;
+        }
+    }
+
+    changeURL();
 
     setTimeout(_scroll, 1000);
 
