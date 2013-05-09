@@ -31,14 +31,26 @@ function scroll(node) {
     var delay = $node.attr('data-config');
     var config = $.parseJSON(delay);
 
-    function _scroll() {
+    var cl;
 
+    $node.hover(function () {
+        clearTimeout(cl);
+        $node.data('mouseover', 'true');
+    }, function () {
+        $node.data('mouseout', 'false');
+        clearTimeout(cl);
+        cl = setTimeout(_scroll, config.delay);
+    })
+
+
+    function _scroll() {
+        if ($node.data('mouseover') == true) return;
         var item = $(node).find('div.item');
         changeURL(item.eq(1));
         item.eq(0).clone().appendTo(wrapper);
         item.eq(0).animate({marginTop: -(item.eq(0).height())}, config.interval, 'swing', function () {
             item.eq(0).remove();
-            setTimeout(_scroll, config.delay);
+            cl = setTimeout(_scroll, config.delay);
         })
 
     }
