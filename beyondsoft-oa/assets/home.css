@@ -162,6 +162,12 @@ h2 span {
     margin: 8px 356px 8px 8px;
 }
 
+#application ul p a.detail {
+    color: #38a3db;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
 li.more {
     font-size: 12px;
     font-family: simsun, sans-serif;
